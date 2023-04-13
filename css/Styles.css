@@ -1,0 +1,46 @@
+.myFont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+}
+
+.main-article {
+    margin-top: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid lightslategray;
+    border-bottom: 1px solid lightslategray;
+  }
+ .footer{
+    background-color: rgba(147, 147, 147, 0.15);
+    text-align:center;
+}
+.footer-logo{
+    text-align:center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.social{
+   
+    text-align:center;
+    
+   
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+   }
+   .contact{
+    display:block;
+    
+  }
+  .contact p a{
+    text-decoration: none;
+    color:unset ;
+  }
+  .credits{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid lightslategray;
+   
+  }
