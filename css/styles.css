@@ -44,3 +44,8 @@
     border-top: 1px solid lightslategray;
    
   }
+
+  #formReserva {
+    display: flex;
+    justify-content: center;
+  }
