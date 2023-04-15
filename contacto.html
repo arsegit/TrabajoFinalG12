@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla Hotel Mirador del Sur</title>
+    
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="44x44" href="/image/favicon.png">
+    
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    
+    <!--CSS Propio-->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/stylesContact.css">
+
+</head>
+
+<body>
+    <div class="container">
+<header>
+    
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-sm myFont">
+        <div class="container-fluid">
+           
+                <a class="nav-link active" aria-current="page" href="index.html"><img src="/image/logo hotel.png" alt="logo Hotel Mirador del Sur" height="75px"></a>
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-sm-center justify-content-md-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hotel.html">Hotel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="habitaciones.html">Habitaciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservas.html">Reservas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+                
+            </div>
+        </div>
+  </nav>
+<!--Fin de Barra de Navegacion-->
+</header>
+<main class="main-article">
+    <div class=" row d-flex text-center">
+        
+        <div class="fondo">
+            <div class="contenedor">
+              <div id="box-1">
+                
+                
+             <form>
+               <h1>Contacto</h1>
+             <div id="formulario">
+             <div class="form-group">
+               <label for="name"></label>
+               <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Nombre">
+               <small id="name" class="form-text text-muted"></small>
+             </div>    
+               <div class="form-group">
+                   <label for="email"></label>
+                   <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Correo">
+                   <small id="email" class="form-text text-muted"></small>
+                 </div>    
+               <div class="form-group">
+                 <label for="consulta"></label>
+                 <textarea type="password" class="form-control" id="consulta" placeholder="Su Consulta" rows="5"></textarea>
+               </div>
+               <br>
+               <button id="btn" type="submit" class="btn btn-primary">Enviar</button>
+             </div>
+             
+             </form>
+            </div>
+            
+          
+           <div id="box-2">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7153.466106967121!2d-71.18267332423446!3d-41.076380299026596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a874579d844e1%3A0x13008610c563e103!2sPatagonia%20Argentina%20826%2C%20Dina%20Huapi%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1681362335741!5m2!1ses-419!2sar" width="350" height="450" style="border:0;"></iframe>
+           </div>
+          </div>
+         </div>
+
+
+    </div>
+</main>
+
+
+<footer class="footer row">
+    
+    <div class="footer-logo col-3 ">
+            <a href="https://www.miradordelsur.com.ar">
+                <img src="image/logo hotel.png" alt="logo Hotel Mirador del Sur" height="50px" class="img-responsive">
+            </a>
+        
+    </div>
+    <div class="contact col-6">
+        <p>Patagonia Argentina 846 - Dina Huapi - Río Negro - Argentina</p>
+            <p>Tel: <a href="tel:+54 9 11 3723-2530">+54 9 11 3723-2530</a></p>
+            <p><a href="mailto:reservas@miradordelsur.com.ar">reservas@miradordelsur.com.ar</a></p>
+    </div>
+    <div class="social col-3 column-gap-3 ">
+            <a target="_blank" href="#"><img src="image/facebook.png" alt="Facebook"></a>
+            <a target="_blank" href="#"><img src="image/instagram.png" alt="Instagram"></a>
+    </div>
+        
+
+        
+     
+        <div class="credits">
+                <H6> Website Built By <a target="_blank" href="grupo12.html">Grupo 12</a></H6>
+        </div>
+    
+  </footer>
+
+  <script>
+    var btn = document.getElementById('btn');
+    btn.addEventListener('click',function(e){
+      e.preventDefault()
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var consulta = document.getElementById('consulta').value;
+      alert("El señor " + name + " deja su e-mail: " + email + " y su consulta: " + consulta);
+    })
+    
+   </script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script defer src="https://kit.fontawesome.com/76c9ca720a.js" crossorigin="anonymous"></script>
+</body>
+</html>

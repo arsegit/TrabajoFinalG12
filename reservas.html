@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Mirador del Sur - Reservas</title>
+    
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="44x44" href="/image/favicon.png">
+    
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    
+    <!--CSS Propio-->
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+<header>
+    
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-sm myFont">
+        <div class="container-fluid">
+           
+                <a class="nav-link active" aria-current="page" href="index.html"><img src="/image/logo hotel.png" alt="logo Hotel Mirador del Sur" height="75px"></a>
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-sm-center justify-content-md-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hotel.html">Hotel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="habitaciones.html">Habitaciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservas.html">Reservas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+                
+            </div>
+        </div>
+  </nav>
+<!--Fin de Barra de Navegacion-->
+</header>
+<main class="main-article" >
+    
+    <!--inicio del formulario-->
+    <div class="row d-flex" style="justify-content: center; align-items: center;">
+        <div class="col-sm-10 col-md-8 col-lg-6">
+        <div class="form-container">
+            <form id="formReserva">
+                <fieldset>
+                    <legend class="mb-2 mt-2 text-center">Reserva con nosotros:</legend>
+               
+                
+                        <div class="mb-1">
+                            <label for="inputCheckIn" class="form-label">Fecha de ingreso:</label>
+                            <input type="checkIn" class="form-control" id="inputCheckIn" aria-describedby="checkInHelp">
+                            <div id="checkInHelp" class="form-text">Debe al menos elegir una noche. (dd/mm/aaaa)</div>
+                        </div>
+    
+                        <div class="mb-1">
+                            <label for="inputCheckOut" class="form-label">Fecha de egreso:</label>
+                            <input type="checkout" class="form-control" id="inputCheckOUt" aria-describedby="checkOutHelp">
+                            <div id="checkInHelp" class="form-text">Debe al menos elegir una noche. (dd/mm/aaaa</div>
+                        </div>
+    
+                        <div class="mb-1">
+                            <label for="inputAdultos" class="form-label">Adultos:</label>
+                            <input type="adultos" class="form-control" id="inputAdultos" aria-describedby="adultosHelp">
+                            <div id="adultosHelp" class="form-text">Ingrese cantidad de adultos.</div>
+                        </div>
+    
+                        <div class="mb-1">
+                            <label for="inputMenores" class="form-label">Menores:</label>
+                            <input type="menores" class="form-control" id=inputMenores" aria-describedby="menoresHelp">
+                            <div id="adultosHelp" class="form-text">Ingrese cantidad de menores de 18 años</div>
+                        </div>
+    
+                        <div class="mb-1">
+                            <label for="inputPersPago" class="form-label">Nombre y Apellido:</label>
+                            <input type="persPago" class="form-control" id="inputPersPago" aria-describedby="persPagoHelp">
+                            <div id="persPagoHelp" class="form-text">Titular de la reservación</div>
+                        </div>
+    
+                        <div class="mb-3">
+                            <label for="formControlEmail" class="form-label">Correo electrónico de contacto:</label>
+                            <input type="email" class="form-control" id="formControlEmail" placeholder="correoelectronico@ejemplo.com">
+                        </div>
+                 </fieldset>
+                        
+                        <div>
+                            <button type="submit" id="btn-submit-reservas" class="btn btn-primary btn-reservas">Enviar</button>
+                        </div>
+            
+            </form>
+            <br>
+            
+        </div>
+        </div>
+        </div>
+    <!--fin del formulario-->
+   
+
+
+
+
+</main>
+
+
+<footer class="footer row">
+    
+    <div class="footer-logo col-3 ">
+            <a href="https://www.miradordelsur.com.ar">
+                <img src="image/logo hotel.png" alt="logo Hotel Mirador del Sur" height="50px" class="img-responsive">
+            </a>
+        
+    </div>
+    <div class="contact col-6">
+        <p>Patagonia Argentina 846 - Dina Huapi - Río Negro - Argentina</p>
+            <p>Tel: <a href="tel:+54 9 11 3723-2530">+54 9 11 3723-2530</a></p>
+            <p><a href="mailto:reservas@miradordelsur.com.ar">reservas@miradordelsur.com.ar</a></p>
+    </div>
+    <div class="social col-3 column-gap-3 ">
+            <a target="_blank" href="#"><img src="image/facebook.png" alt="Facebook"></a>
+            <a target="_blank" href="#"><img src="image/instagram.png" alt="Instagram"></a>
+    </div>
+        
+
+        
+     
+        <div class="credits">
+                <H6> Website Built By <a target="_blank" href="grupo12.html">Grupo 12</a></H6>
+        </div>
+    
+  </footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script defer src="https://kit.fontawesome.com/76c9ca720a.js" crossorigin="anonymous"></script>
+</body>
+</html>
