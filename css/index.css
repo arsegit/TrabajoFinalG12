@@ -1,5 +1,7 @@
 .carousel-inner{
-    height: 500px;
+    max-height: 500px;
+    align-items: center;
+    justify-content: center;
 }
 .hero{
     margin-top: 40px;

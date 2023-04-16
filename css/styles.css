@@ -11,6 +11,14 @@
     
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+.myFont{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
 .main-article {
     margin-top: 1rem;
     padding-top: 2rem;
@@ -81,13 +89,9 @@
     padding-bottom: 1.5rem;
 }
 .social{
-   
     text-align:center;
-    
-   
-    padding-top: 1rem;
+     padding-top: 1rem;
     padding-bottom: 2rem;
-
    }
    .contact{
     display:block;
