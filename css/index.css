@@ -14,24 +14,50 @@
     padding: 0;
     margin: 0;
 }
+#container-1{
+    box-shadow:  0 -3em 3em
+     rgba(0,0,0,0.1),
+     0 0 0 2px
+     rgb(255, 255,255 ),
+     0.3em 0.3em 1em
+     rgba(0, 0, 0, 0.3);
+}
 
 #div1{
     display:flex;
     padding: 0px;
     justify-content:flex-start ;
     margin-left: 50px;
+    box-shadow:  0 -3em 3em
+     rgba(0,0,0,0.1),
+     0 0 0 2px
+     rgb(255, 255,255 ),
+     0.3em 0.3em 1em
+     rgba(0, 0, 0, 0.3);
 }
 #div2{
     display:flex;
     padding: 0px;
     justify-content:flex-start;
     margin-left: 50px;
+    box-shadow:  0 -3em 3em
+     rgba(0,0,0,0.1),
+     0 0 0 2px
+     rgb(255, 255,255 ),
+     0.3em 0.3em 1em
+     rgba(0, 0, 0, 0.3);
 }
 #div3{
     display: flex;
     padding: 0px;
     justify-content:flex-start;
     margin-left: 50px;
+    box-shadow:  0 -3em 3em
+     rgba(0,0,0,0.1),
+     0 0 0 2px
+     rgb(255, 255,255 ),
+     0.3em 0.3em 1em
+     rgba(0, 0, 0, 0.3);
 }
 
     
